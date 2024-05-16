@@ -1,0 +1,141 @@
+/* Btn Hébergement */
+
+width: 113px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+/* Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-end;
+padding: 0px;
+gap: 68px;
+
+width: 244px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Btn Hébergement */
+
+width: 113px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Hébergements */
+
+position: absolute;
+width: 112px;
+height: 19px;
+left: 0px;
+top: 16px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+
+/* Blue */
+color: #0065FC;
+
+
+
+/* Bg bar */
+
+position: absolute;
+width: 113px;
+height: 2px;
+left: 0px;
+top: 0px;
+
+/* Transparent */
+
+
+/* Blue bar */
+
+position: absolute;
+width: 113px;
+height: 2px;
+left: 0px;
+top: 0px;
+
+/* Blue */
+background: #0065FC;
+
+
+/* Btn Activités */
+
+width: 63px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Activités */
+
+position: absolute;
+width: 63px;
+height: 19px;
+left: 181px;
+top: 16px;
+
+/* Nav/Standard */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+
+/* Rectangle 26 */
+
+position: absolute;
+width: 63px;
+height: 2px;
+left: 181px;
+top: 0px;
+
+/* Transparent */
+
+
+/* Rectangle 25 */
+
+position: absolute;
+visibility: hidden;
+width: 63px;
+height: 2px;
+left: 181px;
+top: 0px;
+
+/* Blue */
+background: #0065FC;
