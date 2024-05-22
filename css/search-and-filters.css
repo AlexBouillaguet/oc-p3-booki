@@ -1,0 +1,140 @@
+/****** Search And Filters Bars ***********/
+
+/****** Search Bar ***********/
+
+.search-and-filters-bars p {
+    margin-top: 8px;
+}
+
+.search-bar {
+    display: flex;
+    height: 49px;
+    width: 377px;
+    margin-top: 35px;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    width: 50px;
+    border-radius: 15px 0 0 15px;
+    background-color: var(--main-bg-color);
+}
+
+.search-icon i {
+    color: black;
+    font-size: 18px;
+}
+
+.search-input {
+    padding-left: 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-top: 1px solid var(--main-bg-color);
+    border-bottom: 1px solid var(--main-bg-color);
+    width: 195px;
+}
+
+.search-input::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.search-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 132px;
+    border-radius: 0 15px 15px 0;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.search-button i {
+    display: none;
+}
+
+/****** Filters Bar ***********/
+
+.filters-bar {
+    display: flex;
+    min-height: 50px;
+    max-height: 161px;
+    column-gap: 15px;
+    align-items: center;
+    margin-top: 35px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.filters-button-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 15px;
+    /* margin-top: 10px; */
+}
+.filters-bar p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.filters-button {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    column-gap: 10px;
+    padding: 4px 19px 4px 19px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.filters-button:hover {
+    background-color: var(--filter-bg-color);
+}
+
+.filters-button p {
+    font-size: 17px;
+}
+
+.filters-button i {
+    font-size: 22px;
+    height: 22px;
+    width: 22px;
+}
+.info-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+
+.info-bar p {
+    margin: 0;
+}
+
+.info-icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 24px;
+    min-width: 24px;
+    margin-right: 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.info-icone i {
+    font-size: 10px;
+}
+

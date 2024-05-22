@@ -1,0 +1,25 @@
+/****** Footer ***********/
+
+
+footer {
+    background-color: var(--main-bg-color);
+    display: flex;
+}
+
+.footer-block-text {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 20px;
+}
+
+.footer-title {
+    font-size: 18px;
+}
+.footer-block-text li {
+    margin: 15px 0;
+}
+
+.footer-block-text li:last-child{
+    margin-bottom: 0;
+}
