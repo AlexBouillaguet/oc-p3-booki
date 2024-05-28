@@ -1,9 +1,9 @@
 /****** Footer ***********/
 
-
 footer {
     background-color: var(--main-bg-color);
     display: flex;
+    margin-top: 35px;
 }
 
 .footer-block-text {

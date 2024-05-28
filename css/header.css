@@ -4,7 +4,7 @@ header {
     justify-content: space-between;
 }
 
-#logo {
+.logo { 
     height: 19px;
     padding: 30px 30px 30px 0px;
 }

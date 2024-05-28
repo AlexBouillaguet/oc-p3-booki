@@ -3,31 +3,32 @@
 .activities {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 35px;
     padding: 30px;
 }
 
-.activities-card {
+.activies-cards {
     display: flex;
     margin-top: 30px;
     column-gap: 30px;
 }
 
-.activities-card .card {
+.activies-cards .card {
     display: flex;
     flex-direction: column;
     padding: 0;
-    width: 25%;
     flex: 1 1 25%;
 }
 
-.activities-card img {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+.activies-cards img {
+    border-radius: 20px 20px 0 0;
     height: 380px;
     width: 100%;
 }
 
-.activities-card h3 {
-    margin: 20px 19px;
+.activies-cards .card-content {
+    display: flex;
+    align-items: center;
+    height: 59px;
+    padding: 0 19px;
 }

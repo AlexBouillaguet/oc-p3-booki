@@ -2,6 +2,10 @@
 
 /****** Search Bar ***********/
 
+.search-and-filters-bars {
+    margin-top: 30px;
+}
+
 .search-and-filters-bars p {
     margin-top: 8px;
 }
@@ -51,8 +55,12 @@
     width: 132px;
     border-radius: 0 15px 15px 0;
     background-color: var(--main-color);
-    color: white;
     border: none;
+    cursor: pointer;
+}
+
+.search-button .search-button-name {
+    color: white;
     font-size: 18px;
     font-weight: bold;
 }
@@ -101,8 +109,9 @@
     background-color: var(--filter-bg-color);
 }
 
-.filters-button p {
+.filters-button .button-name {
     font-size: 17px;
+    font-weight: bold;
 }
 
 .filters-button i {

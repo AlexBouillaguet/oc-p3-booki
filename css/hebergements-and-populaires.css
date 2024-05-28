@@ -2,6 +2,7 @@
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin-top: 35px;
 }
 
 .hebergements-and-populaires section {
