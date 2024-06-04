@@ -67,14 +67,13 @@
 
 .search-button i {
     display: none;
+    cursor: pointer;
 }
 
 /****** Filters Bar ***********/
 
 .filters-bar {
     display: flex;
-    min-height: 50px;
-    max-height: 161px;
     column-gap: 15px;
     align-items: center;
     margin-top: 35px;
@@ -82,16 +81,16 @@
     row-gap: 10px;
 }
 
+.filters-bar .filters-title {
+    font-size: 18px;
+}
+
 .filters-button-block {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     column-gap: 15px;
-}
-.filters-bar p {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0;
+    row-gap: 20px;
 }
 
 .filters-button {
@@ -103,6 +102,7 @@
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     background-color: white;
+    cursor: pointer;
 }
 
 .filters-button:hover {
